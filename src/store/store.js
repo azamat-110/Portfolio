@@ -101,5 +101,6 @@ export const skills = [
     "../assets/images/git.svg",
     "../assets/images/github.svg",
     "../assets/images/sass.svg",
-    "../assets/images/vscode.svg",
+    "../assets/images/vscode.svg"
 ]
+
