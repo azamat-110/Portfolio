@@ -1,0 +1,23 @@
+$Roboto: ('Bold', 700),
+('Regular', 400);
+
+@each $name,
+$weigth in $Roboto {
+    @font-face {
+        font-family: 'Roboto';
+        src: url('../fonts/Roboto-#{$name}.ttf');
+        font-weight: $weigth;
+    }
+}
+
+$Montserrat: ('Bold', 700), 
+('Regular', 400), 
+('Medium', 500);
+
+@each $name, $weight in $Montserrat{
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
