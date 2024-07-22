@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <div>
     <header class="header container">
       <div class="header__content">
@@ -119,7 +119,7 @@
     </section>
   </div>
 </template>
-
+-->
 <script setup>
 import ProjectsSwiper from "../components/ProjectsSwiper.vue";
 import { skills } from "../store/store";

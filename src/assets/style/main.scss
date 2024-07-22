@@ -1,9 +1,12 @@
-@import './navbar.scss', './fonts.scss', './mainpage.scss', './footer.scss';
+@import './navbar.scss', './fonts.scss', './mainpage.scss', './footer.scss', 'media.scss';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(24, 24, 24);
+    ;
+    transition: .5s;
 }
 
 li {
