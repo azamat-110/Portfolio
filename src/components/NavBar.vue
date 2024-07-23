@@ -12,7 +12,7 @@
           {{ changeDevice ? "Tursunboev" : "T" }}
         </a>
       </router-link>
-      <ul class="nav__list" :class="{active__nav : show}">
+      <ul class="nav__list">
         <li>
           <router-link to="/" class="nav__list-link"> Home </router-link>
         </li>
@@ -111,7 +111,6 @@ window.addEventListener("scroll", () => {
 });
 window.addEventListener("click", (event) => {
   let modal = ref(document.querySelector(".modal"));
-  console.log(event.target);
   if (event.target == modal.value) {
     showModal.value = !showModal.value;
   }
@@ -120,9 +119,16 @@ let changeDevice = "false";
 if (window.innerWidth <= 480) {
   changeDevice = !changeDevice;
 }
+let showNav = false;
 
-const showNavList = (show = false) => {
-    show = !show;
+const showNavList = () => {
+  const nav = document.querySelector(".nav__list");
+  showNav = !showNav;
+  if (showNav) {
+    nav.style = "transform:translateX(0);";
+  } else {
+    nav.style = "transform:translateX(-200px);";
+  }
 };
 </script>
 
