@@ -104,7 +104,9 @@
     <section class="projects container">
       <div class="projects__content">
         <h2 class="projects__content-title">projects<span>( )</span></h2>
-        <ProjectsSwiper />
+        <div class="projects__content-cards">
+          <ProjectsSwiper />
+        </div>
         <div class="projects__left">
           <img
             style="transform: rotate(180deg)"

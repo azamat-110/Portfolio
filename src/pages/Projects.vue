@@ -2,8 +2,8 @@
   <div class="projects container">
     <div class="projects__content">
       <h2 class="projects__content-title">projects<span>( )</span></h2>
-      <!-- <ProjectsSwiper /> -->
       <div class="projects__content-cards">
+        <!-- <ProjectsSwiper /> -->
         <div
           class="projects__content-card"
           v-for="(cards, i) in projects"
