@@ -3,25 +3,25 @@ export const projects = [
     {
         id: 9,
         title: 'Vue-Weather',
-        img: "/Portfolio/src/assets/images/vue-weather.png",
+        img: "/src/assets/images/vue-weather.png",
         link: "https://azamat-110.github.io/vue-weather/",
-        codeLink: 'https://github.com/azamat-110/vue-weather/blob/master/Portfolio/src/App.vue',
+        codeLink: 'https://github.com/azamat-110/vue-weather/blob/master/src/App.vue',
         descr: 'Get real-time weather updates with our Vue Weather app, built using SCSS, JavaScript, and Vue. Includes a search feature for any location.',
         tech: 'SCSS, JS,Vue'
     },
     {
         id: 10,
         title: 'Note-app',
-        img: "/Portfolio/src/assets/images/note_app.png",
+        img: "/src/assets/images/note_app.png",
         link: "https://azamat-110.github.io/Note-app/",
-        codeLink: 'https://github.com/azamat-110/Note-app/blob/master/Portfolio/src/App.vue',
+        codeLink: 'https://github.com/azamat-110/Note-app/blob/master/src/App.vue',
         descr: 'Easily write and manage your notes with our Note App. Built using JavaScript, Vue, and CSS, it offers a user-friendly interface for organizing your thoughts',
         tech: 'JS, Vue, CSS'
     },
     {
         id: 1,
         title: 'ZoneSmart',
-        img: '/Portfolio/src/assets/images/zonesmart.png',
+        img: '/src/assets/images/zonesmart.png',
         link: 'https://azamat-110.github.io/ZoneSmart/',
         codeLink: 'https://github.com/azamat-110/ZoneSmart/blob/master/index.html',
         descr: ' Zonesmart developed using HTML and CSS. This site showcases the largest global online platforms, offering users a unique experience in a sleek and user-friendly design.',
@@ -30,7 +30,7 @@ export const projects = [
     {
         id: 2,
         title: 'Nike',
-        img: '/Portfolio/src/assets/images/nike.png',
+        img: '/src/assets/images/nike.png',
         link: 'https://azamat-110.github.io/Nike/',
         codeLink: 'https://github.com/azamat-110/Nike/blob/master/index.html',
         descr: 'Welcome to our site dedicated to Nike, where you will find the latest information on Nike products, including shoes, apparel, and accessories.',
@@ -39,7 +39,7 @@ export const projects = [
     {
         id: 3,
         title: 'Vue-Cinema',
-        img: '/Portfolio/src/assets/images/vue_cinema.png',
+        img: '/src/assets/images/vue_cinema.png',
         link: 'https://azamat-110.github.io/vue-cinema/',
         codeLink: 'https://github.com/azamat-110/vue-cinema/blob/main/index.html',
         descr: 'The Vue Cinema website developed  using HTML and CSS. This site showcases the latest movies and events, offering users a user-friendly design.',
@@ -48,7 +48,7 @@ export const projects = [
     {
         id: 4,
         title: 'The News Web',
-        img: '/Portfolio/src/assets/images/the_news.png',
+        img: '/src/assets/images/the_news.png',
         link: 'https://azamat-110.github.io/The-news-web/',
         codeLink: 'https://github.com/azamat-110/The-news-web/blob/master/index.html',
         descr: ' The News Web developed by using HTML and CSS. This site provides the latest news and updates from around the world, offering users a user-friendly design.',
@@ -57,7 +57,7 @@ export const projects = [
     {
         id: 5,
         title: 'Go trip',
-        img: '/Portfolio/src/assets/images/go_trip.png',
+        img: '/src/assets/images/go_trip.png',
         link: 'https://azamat-110.github.io/Go-trip/',
         codeLink: 'https://github.com/azamat-110/Go-trip/blob/master/index.html',
         descr: 'Go Trip: I developed this website using HTML and CSS. It offers users a unique and engaging experience to discover exciting travel destinations.',
@@ -66,7 +66,7 @@ export const projects = [
     {
         id: 6,
         title: 'Boulevard',
-        img: '/Portfolio/src/assets/images/boulevard.png',
+        img: '/src/assets/images/boulevard.png',
         link: 'https://azamat-110.github.io/Boulevard/',
         codeLink: 'https://github.com/azamat-110/Boulevard/blob/master/index.html',
         descr: 'Bolulevard: I built this website using HTML and CSS. It highlights Apple headphones and phones, offering a stylish and intuitive user experience.',
@@ -75,7 +75,7 @@ export const projects = [
     {
         id: 7,
         title: 'About me',
-        img: '/Portfolio/src/assets/images/about_me.png',
+        img: '/src/assets/images/about_me.png',
         link: 'https://azamat-110.github.io/About-me/',
         codeLink: 'https://github.com/azamat-110/About-me/blob/master/index.html',
         descr: 'About Me: I built this website using HTML and CSS. It offers a personal space to share stories, experiences, and insights, with a clean and engaging design.',
@@ -84,7 +84,7 @@ export const projects = [
     {
         id: 8,
         title: 'Grayson',
-        img: '/Portfolio/src/assets/images/grayson.png',
+        img: '/src/assets/images/grayson.png',
         link: 'https://azamat-110.github.io/Grayson/',
         codeLink: 'https://github.com/azamat-110/Grayson/blob/master/index.html',
         descr: 'Grayson: I created this website using HTML and CSS. It features the latest in fashion and apparel, providing users with a chic and immersive browsing experience.',
@@ -94,13 +94,13 @@ export const projects = [
 ];
 
 export const skills = [
-    '/Portfolio/src/assets/images/html.svg',
-    '/Portfolio/src/assets/images/css.svg',
-    "/Portfolio/src/assets/images/js.svg",
-    "/Portfolio/src/assets/images/vue.svg",
-    "/Portfolio/src/assets/images/git.svg",
-    "/Portfolio/src/assets/images/github.svg",
-    "/Portfolio/src/assets/images/sass.svg",
-    "/Portfolio/src/assets/images/vscode.svg"
+    '/src/assets/images/html.svg',
+    '/src/assets/images/css.svg',
+    '/src/assets/images/js.svg',
+    '/src/assets/images/vue.svg',
+    '/src/assets/images/git.svg',
+    '/src/assets/images/github.svg',
+    '/src/assets/images/sass.svg',
+    '/src/assets/images/vscode.svg'
 ]
 
