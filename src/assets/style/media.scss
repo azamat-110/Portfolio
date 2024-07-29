@@ -8,10 +8,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            width: 50%;
+            width: 50vw;
             height: 100vh;
             background: rgb(24, 24, 24);
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             transform: translateX(-200px);
