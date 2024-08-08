@@ -1,24 +1,3 @@
-<template>
-  <swiper
-    :navigation="true"
-    :modules="modules"
-    :breakpoints="swiperModules.breakpoints"
-    space-between="25"
-    class="swiper"
-  >
-    <swiper-slide
-      class="swiper__item"
-      v-for="(cards, i) in projectsStore"
-      :key="i"
-      @click="goToLink(cards.link)"
-    >
-        <img :src="setImage(cards.img)" :alt="cards.name" />
-        <h2>
-          {{ cards.title }}
-        </h2>
-    </swiper-slide>
-  </swiper>
-</template>
 
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -27,8 +6,8 @@ import { projects } from "../store/store.js";
 import { Navigation } from "swiper/modules";
 import { ref } from "vue";
 
-const projectsStore = projects;
 const modules = ref([Navigation]);
+const projectsStore = projects;
 
 const swiperModules = ref({
   breakpoints: {
@@ -59,5 +38,27 @@ const goToLink = (link) => {
 };
 
 </script>
+
+<template>
+  <swiper
+    :navigation="true"
+    :modules="modules"
+    :breakpoints="swiperModules.breakpoints"
+    space-between="25"
+    class="swiper"
+  >
+    <swiper-slide
+      class="swiper__item"
+      v-for="(cards, i) in projectsStore"
+      :key="i"
+      @click="goToLink(cards.link)"
+    >
+        <img :src="setImage(cards.img)" :alt="cards.name" />
+        <h2>
+          {{ cards.title }}
+        </h2>
+    </swiper-slide>
+  </swiper>
+</template>
 
  
