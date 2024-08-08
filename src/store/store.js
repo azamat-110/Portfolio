@@ -94,13 +94,13 @@ export const projects = [
 ];
 
 export const skills = [
-    '../../src/assets/images/html.svg',
-    '../../src/assets/images/css.svg',
-    '../../src/assets/images/js.svg',
-    '../../src/assets/images/vue.svg',
-    '../../src/assets/images/git.svg',
-    '../../src/assets/images/github.svg',
-    '../../src/assets/images/sass.svg',
-    '../../src/assets/images/vscode.svg'
+    '/src/assets/images/html.svg',
+    '/src/assets/images/css.svg',
+    '/src/assets/images/js.svg',
+    '/src/assets/images/vue.svg',
+    '/src/assets/images/git.svg',
+    '/src/assets/images/github.svg',
+    '/src/assets/images/sass.svg',
+    '/src/assets/images/vscode.svg'
 ]
 
