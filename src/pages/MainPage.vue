@@ -95,7 +95,7 @@
           <img
             v-for="(links, i) in skills"
             :key="i"
-            :src="setImage(links)"
+            :src="setImage(`${links}?v=1`)"
             alt="htlm"
           />
         </div>
