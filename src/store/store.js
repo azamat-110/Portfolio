@@ -94,7 +94,7 @@ export const projects = [
 ];
 
 export const skills = [
-    '../assets/images/html.svg',
+    './assets/images/html.svg',
     '../assets/images/css.svg',
     '../assets/images/js.svg',
     '../assets/images/vue.svg',
