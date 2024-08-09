@@ -4,11 +4,9 @@ import { fileURLToPath, URL } from 'node:url';
 
 
 export default defineConfig({
-  base: '/Portfolio',
+  base: process.env.NODE_ENV === 'production' ? '/Portfolio/' : '/',
   plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-    },
+  build: {
+    assetsInclude: ['**/*.svg', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif'],
   },
 });
