@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "alias": "^0.0.5",
     "pinia": "^2.1.7",
     "sass": "^1.77.2",
     "sass-loader": "^14.2.1",
