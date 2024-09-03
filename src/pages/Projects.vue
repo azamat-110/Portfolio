@@ -3,11 +3,7 @@
     <div class="projects__content">
       <h2 class="projects__content-title">projects<span>( )</span></h2>
       <div class="projects__content-cards">
-        <div
-          class="projects__content-card"
-          v-for="(cards, i) in projects"
-          :key="i"
-        >
+        <div class="projects__content-card" v-for="(cards, i) in projects" :key="i">
           <img
             class="projects__content-card-img"
             :src="setImage(cards.img)"
@@ -20,9 +16,7 @@
             <p class="projects__content-card-info-descr">
               {{ cards.descr }}
             </p>
-            <p class="projects__content-card-info-tech">
-              Tech stack : {{ cards.tech }}
-            </p>
+            <p class="projects__content-card-info-tech">Tech stack : {{ cards.tech }}</p>
             <div class="projects__content-card-links">
               <a :href="cards.link">
                 <img src="../assets/images/link.svg" alt="link" />
