@@ -3,7 +3,6 @@
     <div class="projects__content">
       <h2 class="projects__content-title">projects<span>( )</span></h2>
       <div class="projects__content-cards">
-        <!-- <ProjectsSwiper /> -->
         <div
           class="projects__content-card"
           v-for="(cards, i) in projects"
@@ -46,11 +45,10 @@
 </template>
 
 <script setup>
-import ProjectsSwiper from "../components/ProjectsSwiper.vue";
 import { projects } from "../store/store.js";
 
 const setImage = (path) => {
-  return new URL(`${path}`, import.meta.url).href;
+  return new URL(`../assets/images/${path}`, import.meta.url).href;
 };
 
 const goToLink = (link) => {

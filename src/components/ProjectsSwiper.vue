@@ -30,7 +30,7 @@ const swiperModules = ref({
 });
 
 const setImage = (path) => {
-  return new URL(`${path}`, import.meta.url).href;
+  return new URL(`../assets/images/${path}`, import.meta.url).href;
 };
 
 const goToLink = (link) => {
