@@ -107,7 +107,7 @@
         <div class="projects__content-cards">
           <ProjectsSwiper />
         </div>
-        <div class="projects__left">
+        <!-- <div class="projects__left">
           <img
             style="transform: rotate(180deg)"
             src="../assets/images/right.svg"
@@ -116,7 +116,7 @@
         </div>
         <div class="projects__right">
           <img src="../assets/images/right.svg" alt="right" />
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
